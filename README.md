@@ -5,4 +5,4 @@ To add `%md` to a notebook, run:
 ```python
 exec(__import__('requests').get('https://raw.githubusercontent.com/SteveBeeblebrox/md/refs/heads/main/md').text)
 ```
-Use `{expression}` to interpolate values from the enclosinscopesing
+Use `{expression}` to interpolate values from the enclosing scope.
